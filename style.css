@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  font-family: Ubuntu, Times, serif;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.trybewarts-login {
+  display: flex;
+  height: 40px;
+  margin-right: 5px;
+  flex-wrap: wrap;
+}
+
+.trybewarts-login button {
+  width: 100px;
+}
+
+.trybewarts-login input {
+  width: 150px;
+  padding: 10px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+}
+
+main {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+.div-name-lastname {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#first-second-section {
+  display: flex;
+  padding: 10px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-left: 200px;
+}
+
+#second-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 200px;
+}
+
+#rate {
+  display: flex;
+}
+
+#label-rate {
+  margin-right: 10px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 100px;
+}
+
+.container-counter {
+  display: flex;
+}
+
+.subject {
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(50, 167, 145);
+  height: 99px;
+  color: aliceblue;
+}
